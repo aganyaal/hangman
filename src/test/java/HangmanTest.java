@@ -48,8 +48,8 @@ public class HangmanTest {
         exception.expect(IllegalArgumentException.class);
         exception.expectMessage("You cannot guess the same letter again ");
 
-        hangman.applyGuess("c");
-        hangman.applyGuess("c");
+        hangman.applyGuess("i");
+        hangman.applyGuess("i");
     }
 
     // if you have entered your guesses correctly (atleast once) you win
